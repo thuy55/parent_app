@@ -1,0 +1,255 @@
+.card-home-dashboard {
+  margin-top: 10px;
+  background-color: rgb(197, 207, 239);
+  color: black;
+  border-radius: 10px;
+}
+
+.lable-name {
+  display: flex;
+  text-align: start;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+.tt {
+  display: flex;
+  text-align: start;
+}
+
+.select-name {
+  background-color: rgb(231, 220, 220);
+  padding: 5px;
+  text-align: start;
+  display: flex;
+}
+
+.card-content-dashboard {
+  background-color: rgb(197, 207, 239);
+  padding: 10px;
+}
+.grid {
+  padding: 0;
+}
+.col-dashboard {
+  padding: 5px;
+  background-color: rgb(197, 207, 239);
+}
+.card-content-grid {
+  padding: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+  text-align: center;
+}
+.card-grid-dashboard {
+  /* height: 85px; */
+  margin: 5px;
+  color: black;
+  border-radius: 15px;
+  /* box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.01); */
+  background-color: rgb(231, 240, 249);
+}
+.text-11 {
+  border-bottom: 0.5px solid #dbdbdb;
+  color: black;
+  font-weight: bold;
+}
+.text-2 {
+  text-align: start;
+  color: #007aff;
+  font-weight: bold;
+}
+.car-name {
+  font-size: 19px;
+}
+.item-list-dashboard {
+  padding: 5px;
+
+  border-radius: 15px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.01);
+}
+.notification-badge {
+  position: absolute;
+  /* top: -10px; */
+  /* right: -10px; */
+}
+.notification-icon-container {
+  position: relative;
+}
+
+.marquee-container {
+  overflow: hidden;
+  background-color: #c9deed;
+  height: 36px;
+  padding-top: 8px;
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.route {
+  width: 130px;
+}
+.news-scroll a {
+  text-decoration: none;
+}
+.dot {
+  height: 6px;
+  width: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px !important;
+  background-color: rgb(207, 23, 23);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  4% {
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+
+  12% {
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  16% {
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ring {
+  0% {
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  4% {
+    -webkit-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(-22deg);
+    -ms-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+
+  12% {
+    -webkit-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  16% {
+    -webkit-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.faa-ring.animated,
+.faa-ring.animated-hover:hover,
+.faa-parent.animated-hover:hover > .faa-ring {
+  -webkit-animation: ring 2s ease infinite;
+  animation: ring 2s ease infinite;
+  transform-origin-x: 50%;
+  transform-origin-y: 0px;
+  transform-origin-z: initial;
+}
